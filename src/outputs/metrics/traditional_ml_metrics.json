@@ -1,0 +1,115 @@
+{
+  "logistic_regression": {
+    "accuracy": 0.8135149292823468,
+    "classification_report": {
+      "Bearish": {
+        "precision": 0.6233333333333333,
+        "recall": 0.6493055555555556,
+        "f1-score": 0.6360544217687075,
+        "support": 288.0
+      },
+      "Bullish": {
+        "precision": 0.7333333333333333,
+        "recall": 0.7142857142857143,
+        "f1-score": 0.7236842105263158,
+        "support": 385.0
+      },
+      "Neutral": {
+        "precision": 0.8841166936790924,
+        "recall": 0.8826860841423948,
+        "f1-score": 0.8834008097165992,
+        "support": 1236.0
+      },
+      "accuracy": 0.8135149292823468,
+      "macro avg": {
+        "precision": 0.7469277867819196,
+        "recall": 0.7487591179945549,
+        "f1-score": 0.7477131473372075,
+        "support": 1909.0
+      },
+      "weighted avg": {
+        "precision": 0.8143643618233061,
+        "recall": 0.8135149292823468,
+        "f1-score": 0.8138740153649743,
+        "support": 1909.0
+      }
+    }
+  },
+  "random_forest": {
+    "accuracy": 0.7820848611838659,
+    "classification_report": {
+      "Bearish": {
+        "precision": 0.8521739130434782,
+        "recall": 0.3402777777777778,
+        "f1-score": 0.48635235732009924,
+        "support": 288.0
+      },
+      "Bullish": {
+        "precision": 0.803347280334728,
+        "recall": 0.4987012987012987,
+        "f1-score": 0.6153846153846154,
+        "support": 385.0
+      },
+      "Neutral": {
+        "precision": 0.7736334405144695,
+        "recall": 0.9733009708737864,
+        "f1-score": 0.8620566105338588,
+        "support": 1236.0
+      },
+      "accuracy": 0.7820848611838659,
+      "macro avg": {
+        "precision": 0.8097182112975586,
+        "recall": 0.6040933491176209,
+        "f1-score": 0.6545978610795244,
+        "support": 1909.0
+      },
+      "weighted avg": {
+        "precision": 0.7914749724260222,
+        "recall": 0.7820848611838659,
+        "f1-score": 0.7556283533007412,
+        "support": 1909.0
+      }
+    }
+  },
+  "tfidf_stats": {
+    "vocabulary_size": 10000,
+    "top_10_features_per_class": {
+      "Bearish": [
+        "investigating",
+        "zumz",
+        "dennis",
+        "now available",
+        "nothing can",
+        "democratic field",
+        "week ending",
+        "thieves",
+        "trgp",
+        "offe"
+      ],
+      "Bullish": [
+        "fred",
+        "zumz",
+        "thieves",
+        "complicated",
+        "files for",
+        "autodesk",
+        "democratic field",
+        "teach",
+        "lhv",
+        "on brexitday"
+      ],
+      "Neutral": [
+        "thieves",
+        "zumz",
+        "target and",
+        "ashtf",
+        "jolla pharmaceutical",
+        "vwap from",
+        "fred blog",
+        "assault",
+        "teach",
+        "fred"
+      ]
+    }
+  }
+}

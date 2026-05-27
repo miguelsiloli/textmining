@@ -1,0 +1,36 @@
+# Claude related
+.claude/
+*.md
+!README.md
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# Temp files
+src/tmp_*/
+*.zip
+
+# Large model files
+*.pkl
+*.pt
+*.bin

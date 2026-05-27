@@ -1,0 +1,81 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{grootendorst2022bertopic}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Data Exploration}{2}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Dataset Overview}{2}{subsection.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Class Distribution and Text Statistics}{2}{subsection.1.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Distribution of sentiment classes in the training dataset.}}{2}{figure.caption.2}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:class_dist}{{1}{2}{Distribution of sentiment classes in the training dataset}{figure.caption.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Topic Modeling with BERTopic}{2}{subsection.1.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Word clouds for each sentiment class revealing distinctive vocabulary patterns.}}{3}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:wordclouds}{{2}{3}{Word clouds for each sentiment class revealing distinctive vocabulary patterns}{figure.caption.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Distribution of tweet lengths across sentiment classes.}}{3}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:tweet_length}{{3}{3}{Distribution of tweet lengths across sentiment classes}{figure.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Top 20 most frequent words per sentiment class after preprocessing.}}{3}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:top_words}{{4}{3}{Top 20 most frequent words per sentiment class after preprocessing}{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Corpus Split}{3}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Data Preprocessing}{4}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Text Normalization (Entity Masking)}{4}{subsection.3.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Entity masking rules applied during preprocessing.}}{4}{table.caption.7}\protected@file@percent }
+\newlabel{tab:masking}{{1}{4}{Entity masking rules applied during preprocessing}{table.caption.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Lowercasing and Regex Cleaning}{4}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Stop Word Removal}{4}{subsection.3.3}\protected@file@percent }
+\citation{mikolov2013word2vec}
+\citation{devlin2019bert}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Lemmatization}{5}{subsection.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Pipeline Design}{5}{subsection.3.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Feature Engineering}{5}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Bag-of-Words and TF-IDF}{5}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Word2Vec Embeddings}{5}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Transformer Encoder: BERT}{5}{subsection.4.3}\protected@file@percent }
+\citation{araci2019finbert}
+\citation{sanh2019distilbert}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Extra: FinBERT Embeddings}{6}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Extra: DistilBERT Embeddings}{6}{subsection.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Classification Models}{6}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Traditional Machine Learning}{6}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.1}Logistic Regression}{6}{subsubsection.5.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.2}Random Forest}{6}{subsubsection.5.1.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Confusion matrices for Word2Vec-based models.}}{7}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:cm_w2v}{{5}{7}{Confusion matrices for Word2Vec-based models}{figure.caption.8}{}}
+\newlabel{fig:cm_logreg}{{6a}{7}{Logistic Regression}{figure.caption.9}{}}
+\newlabel{sub@fig:cm_logreg}{{a}{7}{Logistic Regression}{figure.caption.9}{}}
+\newlabel{fig:cm_rf}{{6b}{7}{Random Forest}{figure.caption.9}{}}
+\newlabel{sub@fig:cm_rf}{{b}{7}{Random Forest}{figure.caption.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Confusion matrices for traditional ML models with TF-IDF features.}}{7}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:confusion_matrices}{{6}{7}{Confusion matrices for traditional ML models with TF-IDF features}{figure.caption.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Transformer-Based Models}{7}{subsection.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.1}BERT-base-uncased}{7}{subsubsection.5.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.2}FinBERT (Extra)}{7}{subsubsection.5.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Evaluation and Results}{8}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Model Comparison}{8}{subsection.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Metric Definitions}{8}{subsection.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Overall Comparison}{8}{subsection.6.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Performance comparison across all models on the validation set.}}{8}{table.caption.10}\protected@file@percent }
+\newlabel{tab:results}{{2}{8}{Performance comparison across all models on the validation set}{table.caption.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}TF-IDF + Logistic Regression Per-Class Performance}{8}{subsection.6.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces TF-IDF + Logistic Regression per-class precision, recall, and F1-score.}}{8}{table.caption.11}\protected@file@percent }
+\newlabel{tab:logreg_class}{{3}{8}{TF-IDF + Logistic Regression per-class precision, recall, and F1-score}{table.caption.11}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.5}FinBERT Per-Class Performance}{9}{subsection.6.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces FinBERT per-class precision, recall, and F1-score.}}{9}{table.caption.12}\protected@file@percent }
+\newlabel{tab:finbert_class}{{4}{9}{FinBERT per-class precision, recall, and F1-score}{table.caption.12}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Macro F1-score comparison across all models.}}{9}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:model_comparison}{{7}{9}{Macro F1-score comparison across all models}{figure.caption.13}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.6}Analysis}{9}{subsection.6.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.7}Handling Class Imbalance}{9}{subsection.6.7}\protected@file@percent }
+\citation{araci2019finbert}
+\citation{sanh2019distilbert}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Extra Work}{10}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Extra Transformer 1: FinBERT (+0.50 pts)}{10}{subsection.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Extra Transformer 2: DistilBERT (+0.50 pts)}{10}{subsection.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Data Augmentation Strategy}{10}{subsection.7.3}\protected@file@percent }
+\bibcite{devlin2019bert}{1}
+\bibcite{araci2019finbert}{2}
+\bibcite{sanh2019distilbert}{3}
+\bibcite{grootendorst2022bertopic}{4}
+\bibcite{mikolov2013word2vec}{5}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Conclusion}{11}{section.8}\protected@file@percent }
+\gdef \@abspage@last{12}

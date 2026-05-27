@@ -1,0 +1,68 @@
+{
+  "logistic_regression": {
+    "Bearish": {
+      "precision": 0.29718004338394793,
+      "recall": 0.4756944444444444,
+      "f1-score": 0.3658210947930574,
+      "support": 288.0
+    },
+    "Bullish": {
+      "precision": 0.44,
+      "recall": 0.4,
+      "f1-score": 0.41904761904761906,
+      "support": 385.0
+    },
+    "Neutral": {
+      "precision": 0.8160291438979964,
+      "recall": 0.7249190938511327,
+      "f1-score": 0.7677806341045416,
+      "support": 1236.0
+    },
+    "accuracy": 0.6217915138816134,
+    "macro avg": {
+      "precision": 0.5177363957606481,
+      "recall": 0.5335378460985257,
+      "f1-score": 0.517549782648406,
+      "support": 1909.0
+    },
+    "weighted avg": {
+      "precision": 0.6619171683355163,
+      "recall": 0.6217915138816134,
+      "f1-score": 0.63680810496959,
+      "support": 1909.0
+    }
+  },
+  "random_forest": {
+    "Bearish": {
+      "precision": 0.5514018691588785,
+      "recall": 0.2048611111111111,
+      "f1-score": 0.29873417721518986,
+      "support": 288.0
+    },
+    "Bullish": {
+      "precision": 0.6093023255813953,
+      "recall": 0.34025974025974026,
+      "f1-score": 0.43666666666666665,
+      "support": 385.0
+    },
+    "Neutral": {
+      "precision": 0.7479521109010712,
+      "recall": 0.9603559870550162,
+      "f1-score": 0.8409493446687921,
+      "support": 1236.0
+    },
+    "accuracy": 0.7213200628601362,
+    "macro avg": {
+      "precision": 0.6362187685471149,
+      "recall": 0.5018256128086226,
+      "f1-score": 0.5254500628502162,
+      "support": 1909.0
+    },
+    "weighted avg": {
+      "precision": 0.6903373194029954,
+      "recall": 0.7213200628601362,
+      "f1-score": 0.677614195764939,
+      "support": 1909.0
+    }
+  }
+}
