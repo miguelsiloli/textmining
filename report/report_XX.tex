@@ -183,6 +183,10 @@ WordNet-based lemmatization reduces words to their base forms (e.g., ``trading''
 
 The preprocessing pipeline is configurable: transformer models receive minimally processed text (normalization + basic cleaning), while traditional ML models receive the full pipeline output including stop word removal and lemmatization.
 
+\subsection{Limitations: Entity Masking and Transformers}
+
+While entity masking clearly benefits sparse models (reducing vocabulary from $\sim$15K to $\sim$8K tokens), its impact on pre-trained transformers is less certain. FinBERT was pre-trained on text \textit{containing} actual tickers and company names, meaning it already encodes entity-specific semantics --- e.g., that \texttt{\$TSLA} is a stock or that ``Tesla'' relates to electric vehicles. Masking discards this signal in favour of generalization. If the test set contains tickers unseen during training, masking helps by forcing the model to rely on contextual sentiment cues rather than memorized ticker-sentiment correlations. However, if the same entities appear in both sets, masking may remove useful signal. An ablation study comparing FinBERT performance with and without entity masking would quantify this trade-off; we leave this for future work.
+
 %==============================================================================
 \section{Feature Engineering}
 %==============================================================================
